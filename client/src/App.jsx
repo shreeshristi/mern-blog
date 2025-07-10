@@ -28,7 +28,7 @@ const App = () => {
         <Route path={RouteIndex} element={<Layout />} >
           <Route index element={<Index />} />
 
-
+// This is the main route for the application, it will render the Layout component
           <Route path={RouteBlogDetails()} element={<SingleBlogDetails />} />
           <Route path={RouteBlogByCategory()} element={<BlogByCategory />} />
           <Route path={RouteSearch()} element={<SearchResult />} />

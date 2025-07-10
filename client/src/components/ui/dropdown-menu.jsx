@@ -70,7 +70,7 @@ const DropdownMenuItem = React.forwardRef(({ className, inset, ...props }, ref) 
     {...props} />
 ))
 DropdownMenuItem.displayName = DropdownMenuPrimitive.Item.displayName
-
+// DropdownMenuItem is a basic item in the dropdown menu, can be used for actions or links
 const DropdownMenuCheckboxItem = React.forwardRef(({ className, children, checked, ...props }, ref) => (
   <DropdownMenuPrimitive.CheckboxItem
     ref={ref}

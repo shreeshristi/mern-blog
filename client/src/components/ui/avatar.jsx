@@ -18,7 +18,7 @@ const AvatarImage = React.forwardRef(({ className, ...props }, ref) => (
     {...props} />
 ))
 AvatarImage.displayName = AvatarPrimitive.Image.displayName
-
+//functional component to render a fallback avatar when the image fails to load
 const AvatarFallback = React.forwardRef(({ className, ...props }, ref) => (
   <AvatarPrimitive.Fallback
     ref={ref}
